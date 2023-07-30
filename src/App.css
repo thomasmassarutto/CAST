@@ -1,38 +1,22 @@
-.App {
-  text-align: center;
-}
+/* 
+PALETTE
+https://coolors.co/30343f-95979f-fafaff-e4d9ff-8687b4-273469-1e2749
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+CSS HEX
+--gunmetal: #30343fff;
+--taupe-gray: #95979fff;
+--ghost-white: #fafaffff;
+--periwinkle: #e4d9ffff;
+--cool-gray: #8687b4ff;
+--delft-blue: #273469ff;
+--space-cadet: #1e2749ff;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+CSS HSL 
+--gunmetal: hsla(224, 14%, 22%, 1);
+--taupe-gray: hsla(228, 5%, 60%, 1);
+--ghost-white: hsla(240, 100%, 99%, 1);
+--periwinkle: hsla(257, 100%, 93%, 1);
+--cool-gray: hsla(239, 23%, 62%, 1);
+--delft-blue: hsla(228, 46%, 28%, 1);
+--space-cadet: hsla(227, 42%, 20%, 1);
+*/

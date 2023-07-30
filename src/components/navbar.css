@@ -1,0 +1,30 @@
+.mainpagenavbar{
+    background-color: #1E2749;
+}
+
+
+.mainpagenavbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+}
+
+.mainpagenavbar li{
+    position: relative;
+    height: 40px;
+    padding-top: 20px;
+    flex:1;
+    text-align: center;
+}
+
+.mainpagenavbar li:hover {
+    background-color: #273469;
+  }

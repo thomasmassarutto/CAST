@@ -1,0 +1,37 @@
+
+.footer{
+    background-color: #30343fff;
+    display: flex;
+}
+
+.collab{
+    margin-top: 5px;
+    margin-left: 5px;
+    color: white;
+}
+
+.collab a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.contattifooter{
+    color: white;   
+}
+
+.contattifooter a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.contattifooter ul{
+    list-style: none;
+}
+
+.contattifooter li{
+    display: flex;
+}
+
+.icon{
+    height: 48px;
+}
