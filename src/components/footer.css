@@ -1,37 +1,29 @@
 
 .footer{
+    display: flex;
     background-color: #30343fff;
-    display: flex;
+
 }
 
-.collab{
-    margin-top: 5px;
-    margin-left: 5px;
-    color: white;
+.divfooter{
+    width: 50%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #fafaff;
+    
 }
 
-.collab a{
-    color: #fff;
+.divfooter a{
+    color: #fafaff;
     text-decoration: none;
 }
 
-.contattifooter{
-    color: white;   
+.contattifootertitolo{
+    font-family: "Orbitron", sans-serif
 }
 
-.contattifooter a{
-    color: #fff;
-    text-decoration: none;
-}
-
-.contattifooter ul{
-    list-style: none;
-}
-
-.contattifooter li{
-    display: flex;
-}
-
-.icon{
-    height: 48px;
+.footercontattiicona{
+    width: 30%;
 }

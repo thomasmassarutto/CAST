@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react'
-import logoCAST from '../img/location.svg';
 
 
 function mappa() {
@@ -18,7 +17,7 @@ function mappa() {
 
       <div className='mappaindicazionitestuali'>
       <div>
-      <i class="material-icons mappalocation">location_on</i>
+      <i class="bi bi-geo-alt-fill mappalocation"></i>
       </div>
 
       <div>
