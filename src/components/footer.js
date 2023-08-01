@@ -8,15 +8,14 @@ import github from '../img/github-mark.png';
 
 function footer() {
   return (
-    <div className='footer'>
-
+    <footer className='footer'>
         <div className='collab'>
-        <a href="http://www.skypoint.it"><img src="https://www.skypoint.it/media/logo/stores/1/skypoint-logo.png" alt="skypoint"></img></a>
-        <p><b>Skypoint s.r.l.</b></p>
-        <p>Via Zorutti, 145/11 - 33030 - CAMPOFORMIDO (UD)</p>
-        <p>e-mail: <a href="mailto:info@skypoint.it">info@skypoint.it</a></p>
-        <p>TEL: <a href="tel:00390432652609">+39 0432 652609</a></p>
-        <p>WHATSAPP: <a href="https://wa.me/393392009603" target="_blank" rel="noopener noreferrer">+39 0432 652609</a></p>
+          <a href="http://www.skypoint.it"><img src="https://www.skypoint.it/media/logo/stores/1/skypoint-logo.png" alt="skypoint"></img></a>
+          <p><b>Skypoint s.r.l.</b></p>
+          <p>Via Zorutti, 145/11 - 33030 - CAMPOFORMIDO (UD)</p>
+         <p>e-mail: <a href="mailto:info@skypoint.it">info@skypoint.it</a></p>
+          <p>TEL: <a href="tel:00390432652609">+39 0432 652609</a></p>
+          <p>WHATSAPP: <a href="https://wa.me/393392009603" target="_blank" rel="noopener noreferrer">+39 0432 652609</a></p>
         </div>
 
         <div className='contattifooter'>
@@ -50,7 +49,7 @@ function footer() {
             </li>
           </ul>
         </div>
-    </div>
+    </footer>
   )
 }
 
