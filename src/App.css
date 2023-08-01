@@ -20,3 +20,9 @@ CSS HSL
 --delft-blue: hsla(228, 46%, 28%, 1);
 --space-cadet: hsla(227, 42%, 20%, 1);
 */
+html{
+    background-color: #e4d9ff;
+}
+body{
+    margin: 0;
+}
