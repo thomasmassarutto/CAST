@@ -31,7 +31,7 @@ function prenotaunavisita() {
         <MDBBtn
           className="m-1 footercontattiicona"
           style={{ backgroundColor: "#3b5998" }}
-          href="https://www.youtube.com/@AstrofiliTalmassons"
+          href="http://m.me/castfvg"
         >
           <MDBIcon fab icon="facebook-messenger" /> Messanger
         </MDBBtn>

@@ -10,7 +10,7 @@ function maincontainer() {
     <div className='maincontainerwrapper'>
         <div className='maincontainer'>
           
-          <div className='maincontainercalendrio'>
+          <div className='maincontainerelement'>
             <Calendario />
           </div>
           
@@ -23,7 +23,7 @@ function maincontainer() {
             </div>
           </div>
 
-          <div className='maincontainermappa'>
+          <div className='maincontainerelement'>
             <Mappa/>
           </div>
           

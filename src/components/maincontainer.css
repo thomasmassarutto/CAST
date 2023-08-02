@@ -1,80 +1,87 @@
-
-.maincontaineraperture{
-    display: flex;
-    justify-content: space-between;
-    background-color: #273469;
-    color: #fafaff;
-
+.maincontainerwrapper {
+  background-color: #e4d9ff;
 }
 
-/* css aperture */
-
-.Apertura {
+.maincontainerelement {
+    color: #30343f;
     padding-left: 1%;
-    padding-right: 1%;
     padding-top: 1%;
     padding-bottom: 1%;
+    padding-right: 1%;
+  }
+
+/* css aperture */
+.maincontaineraperture {
+  display: flex;
+  justify-content: space-between;
+  background-color: #273469;
+  color: #fafaff;
 }
 
-.Apertura:hover{
-    background-color: #1e2749;
+.Apertura {
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
-
-.aperturatitolo{
-    font-family: "Orbitron", sans-serif;
-    font-weight: bold;
-    font-size: 1.5em;
+.Apertura:hover {
+  background-color: #1e2749;
 }
 
-.prenotaunavisita ul{
-    /**/
+.aperturatitolo {
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
-.aperturaprenota a{
-    font-family: "Orbitron", sans-serif;
-    text-decoration: none;
-    color: #fafaff;
+.prenotaunavisita ul {
+  /**/
 }
 
-.aperturaprenota a:hover{
-    color: #fafaff;
+.aperturaprenota a {
+  font-family: "Orbitron", sans-serif;
+  text-decoration: none;
+  color: #fafaff;
+}
+
+.aperturaprenota a:hover {
+  color: #fafaff;
 }
 
 /* css mappa */
 
-.maincontainermappa{
-    color: #30343f;
-    padding-left: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-right: 1%;
-}
-
-.mappa{
-    height: 400px;
-    display: flex;
-}
-
-.mappagmaps{
-    position: relative;
-    width: 50%;
-    height: 100%;
+.mappa {
+  height: 400px;
 }
 
 
-.mappaindicazionitestuali{
-    display: flex;
-    width: 50%;
+/* css calendario */
+
+/*css sezioni*/
+
+.mainpagesection {
+  display: flex;
 }
 
-.mappalocation{
-    margin-top: 20px;
-    color: #30343f;
-    font-size: 60px;
+.mainpageindicazionitestuali {
+  display: flex;
+  width: 50%;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
-.titoloindicazioni{
-    font-family: "Orbitron", sans-serif;
-    font-weight: bold;
+.mainpagetitolosezione {
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold;
+}
+
+.googleelement {
+  position: relative;
+  width: 50%;
+  height: auto;
+}
+
+.littleicon{
+    padding-right: 5px;
 }

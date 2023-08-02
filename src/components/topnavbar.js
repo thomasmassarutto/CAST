@@ -28,9 +28,9 @@ function topnavbar() {
           </div>
 
           <div className="topnavbarcontatti nav-item d-flex flex-column">
-            <i class="bi bi-messenger">
-            <a href="https://www.youtube.com/@AstrofiliTalmassons">
-                  <span> Messanger</span>
+            <i class="bi bi-facebook">
+            <a href="https://www.facebook.com/castfvg">
+                  <span> Circolo Astrofili Talmassons</span>
                 </a>
             </i>
             <i class="bi bi-envelope">

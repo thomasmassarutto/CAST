@@ -7,35 +7,29 @@ function navbar() {
     <div className="mainpagenavbar">
       <nav className="mainpagenavbarmenu">
         <ul class="nav nav-underline nav-fill">
-        <li class="nav-item">
+          <li class="nav-item">
             <a class="nav-link" href="#">
-            Foto
+              Foto
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
-            Articoli
+              Articoli
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
-            Costellazioni
+              Costellazioni
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
-            Costellazioni
-            </a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-            Sistema solare
+              Sistema solare
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
-            Dizionario
+              Dizionario
             </a>
           </li>
         </ul>
