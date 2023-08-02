@@ -1,21 +1,47 @@
 // rfce
-import React from 'react'
-import './navbar.css'
+import React from "react";
+import "./navbar.css";
 
 function navbar() {
   return (
-    <div className='mainpagenavbar'>
-    <nav className='mainpagenavbarmenu'>
-      <ul classname='mainpagenavbarul'>
-      <li classname='mainpagenavbali'>Foto</li>
-        <li classname='mainpagenavbali'>Articoli</li>
-        <li classname='mainpagenavbali'>Costellazioni</li>
-        <li classname='mainpagenavbali'>Sistema solare</li>
-        <li classname='mainpagenavbali'> Dizionario</li>
-      </ul>
-    </nav>
+    <div className="mainpagenavbar">
+      <nav className="mainpagenavbarmenu">
+        <ul class="nav nav-underline nav-fill">
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+            Foto
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+            Articoli
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+            Costellazioni
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+            Costellazioni
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+            Sistema solare
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+            Dizionario
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
-  )
+  );
 }
 
-export default navbar
+export default navbar;

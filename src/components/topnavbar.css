@@ -1,63 +1,31 @@
 .topnavbar{
     background-color: #30343fff;
-    z-index: 100;
+    color: #fafaff;
 }
 
-.navbar1{
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-  }
-
-.logo{
-   margin-left: 5px;
-}
-
-#castlogo{
-    margin-top: 5px;
-    height: 90px;
-}
-
-.centro{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.navbar {
     position: relative;
-    color: white;
-   }
+}
+.brand {
+    position: absolute;
+}
 
-#CAST-titolo {
+.titolo{
     font-family: "Orbitron", sans-serif;
-    position: relative;
-    font-size: 3em;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    color: #fafaff;
 }
 
-#CAST-coordinate{
-    margin-top: 0%;
-    margin-bottom: 5px;
+.topnavbarcontatti{
+    position: absolute;
+    right: 1%;
 }
 
-.contatti {
-    display: flex;
-    flex-direction: column;
-    margin-left: auto; 
-    margin-right: 5px;
-    color: white;
+.topnavbarcontatti a{
+    color: #fafaff;
+    text-decoration: none;
 }
 
-.listacontatti ul{
-    margin-top: 5px;
-    padding-left: 0;
-    list-style: none;
-}
-
-.listacontatti li a{
-    color: white;
-}
-
-
-#contatti{
-    font-family: "Orbitron", sans-serif;
-    text-transform: uppercase;
+.topnavbarcontatti a:hover{
+    color: #fafaff;
+    text-decoration: none;
 }
