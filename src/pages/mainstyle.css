@@ -1,4 +1,4 @@
-/* 
+/* IMPOSTAZIONI DI STILE GLOBALI
 PALETTE
 https://coolors.co/30343f-95979f-fafaff-e4d9ff-8687b4-273469-1e2749
 
@@ -30,4 +30,8 @@ body{
 
 #BrowserRouterNav{
     display: none;
+}
+
+.titolopagina{
+    font-family: "Orbitron", sans-serif;
 }

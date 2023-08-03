@@ -8,11 +8,11 @@
     background-color: #273469;
   }
 
-  .nav-link{
+  .mainpagenavbarlink{
     color: white;
   }
 
-  .nav {
+  .mainpagenavbarul {
     --bs-nav-link-padding-x: 1rem;
     --bs-nav-link-padding-y: 0.5rem;
     --bs-nav-link-font-weight: ;

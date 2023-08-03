@@ -3,8 +3,8 @@
     color: #fafaff;
 }
 
-.navbar {
-    position: relative;
+.navbar-brand{
+    z-index:1
 }
 
 .brand {

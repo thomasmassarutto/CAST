@@ -9,22 +9,23 @@ function topnavbar() {
     <div className="topnavbarwrapper sticky-top">
       <div className="topnavbar">
         <nav class="navbar">
-          <div class="container-fluid">
-            <Link class="navbar-brand" to="/">
-              <img
+
+          <div class="container-fluid d-flex align-items-center">
+            <Link className="navbar-brand" to="/">
+              <img className="imagecast"
                 src={logoCAST}
                 alt="Logo"
                 width="auto"
                 height="60"
                 class="d-inline-block align-text-top"
               ></img>
-            </Link>
-          </div >
+            </Link >
+          </div>
 
           <div className="brand d-flex flex-column container-fluid nav-item">
-          <Link class="navbar-brand titolo" to="/">
+          <h1 class="navbar-brand titolo">
           Circolo AStrofili Talmassons
-          </Link>
+          </h1>
           <small className="sottotitolocentrale">45°56'12" N - 13°06'52"E - 42 mt. s.l.m.</small>
           <small className="sottotitolocentrale">Via Cadorna 57 - 33030 Talmassons (UD)</small>
           </div>

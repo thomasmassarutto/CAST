@@ -1,0 +1,30 @@
+.titolopagina{
+    color: #FAFAFF;
+    background-color: #273469;
+    margin-bottom: 0;
+}
+
+.ilcastmaincontainer{
+    position: relative;
+    background-color: #e4d9ff;
+}
+
+.ilcasttab{
+    background-color: #273469;
+}
+
+.ilcasttab .nav-link{
+    color: #E4D9FF;
+}
+
+.ilcasttab .nav-link.active{
+    background-color: #e4d9ff;
+    border-color: #e4d9ff;;
+    
+}
+
+.cardbodyilcast{
+    background-color: #E4D9FF;
+    padding-left: 10%;
+    padding-right: 10%;
+}

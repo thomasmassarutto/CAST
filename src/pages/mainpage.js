@@ -1,9 +1,9 @@
 
-import './mainpage.css';
+import './mainstyle.css';
 import AlwaysTopNavbar from '../components/topnavbar';
-import Copertina from '../components/copertina';
-import MyNavbar from '../components/mynavbar';
-import MainContainer from '../components/maincontainer';
+import Copertina from '../components/mainpage/copertina';
+import MyNavbar from '../components/mainpage/mynavbar';
+import MainContainer from '../components/mainpage/maincontainer';
 import Footer from '../components/footer';
 
 import "@fortawesome/fontawesome-free/css/all.min.css";

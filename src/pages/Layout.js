@@ -9,7 +9,7 @@ function Layout() {
             <Link to="/">Mainpage</Link>
           </li>
           <li>
-            <Link to="/ciao">Storia</Link>
+            <Link to="/ilcast">IlCast</Link>
           </li>
         </ul>
       </nav>
