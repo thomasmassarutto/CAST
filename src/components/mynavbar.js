@@ -1,8 +1,8 @@
 // rfce
 import React from "react";
-import "./navbar.css";
+import "./mynavbar.css";
 
-function navbar() {
+function mynavbar() {
   return (
     <div className="mainpagenavbar">
       <nav className="mainpagenavbarmenu">
@@ -38,4 +38,4 @@ function navbar() {
   );
 }
 
-export default navbar;
+export default mynavbar;

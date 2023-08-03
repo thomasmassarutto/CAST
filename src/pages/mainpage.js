@@ -1,10 +1,10 @@
 
-import './App.css';
-import AlwaysTopNavbar from './components/topnavbar';
-import Copertina from './components/copertina';
-import Navbar from './components/navbar';
-import MainContainer from './components/maincontainer';
-import Footer from './components/footer';
+import './mainpage.css';
+import AlwaysTopNavbar from '../components/topnavbar';
+import Copertina from '../components/copertina';
+import MyNavbar from '../components/mynavbar';
+import MainContainer from '../components/maincontainer';
+import Footer from '../components/footer';
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <AlwaysTopNavbar />
       <Copertina />
-      <Navbar />
+      <MyNavbar />
       <MainContainer />
       <Footer />
       

@@ -1,6 +1,8 @@
 import React from "react";
 import "./topnavbar.css";
 import logoCAST from "../img/logoCASTbianco.png";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Layout from "../pages/Layout";
 
 function topnavbar() {
   return (
@@ -8,7 +10,7 @@ function topnavbar() {
       <div className="topnavbar">
         <nav class="navbar">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <Link class="navbar-brand" to="/">
               <img
                 src={logoCAST}
                 alt="Logo"
@@ -16,13 +18,13 @@ function topnavbar() {
                 height="60"
                 class="d-inline-block align-text-top"
               ></img>
-            </a>
+            </Link>
           </div >
 
           <div className="brand d-flex flex-column container-fluid nav-item">
-          <a class="navbar-brand titolo" href="#">
+          <Link class="navbar-brand titolo" to="/">
           Circolo AStrofili Talmassons
-          </a>
+          </Link>
           <small className="sottotitolocentrale">45°56'12" N - 13°06'52"E - 42 mt. s.l.m.</small>
           <small className="sottotitolocentrale">Via Cadorna 57 - 33030 Talmassons (UD)</small>
           </div>

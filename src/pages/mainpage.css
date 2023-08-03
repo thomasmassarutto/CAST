@@ -25,4 +25,9 @@ html{
 }
 body{
     margin: 0;
+    background-color: #e4d9ff;
+}
+
+.BrowserRouterNav ul{
+    display: none;
 }
