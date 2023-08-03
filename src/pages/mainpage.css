@@ -28,6 +28,6 @@ body{
     background-color: #e4d9ff;
 }
 
-.BrowserRouterNav ul{
+#BrowserRouterNav{
     display: none;
 }

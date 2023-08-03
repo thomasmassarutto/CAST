@@ -2,9 +2,9 @@ import { Outlet, Link } from "react-router-dom";
 
 function Layout() {
   return (
-    <div  className='BrowserRouterNav'>
-      <nav>
-        <ul>
+    <div  >
+      <nav id='BrowserRouterNav'>
+        <ul >
           <li>
             <Link to="/">Mainpage</Link>
           </li>
