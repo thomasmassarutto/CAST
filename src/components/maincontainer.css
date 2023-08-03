@@ -83,5 +83,8 @@
 }
 
 .littleicon{
-    padding-right: 5px;
+    display: flex;
+    padding-right: 5%;
+    padding-right: 10px;
+    font-size: 40px;
 }
