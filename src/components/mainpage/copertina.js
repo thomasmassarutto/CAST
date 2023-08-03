@@ -11,7 +11,7 @@ function copertina() {
               
       <div className="copertina">
         <img id="immagine-copertina" src={osservatorio} alt="Immagine dell'osservatorio CAST"></img>
-        <Link to='ilcastnew'>
+        <Link to='ilcast'>
           <img id="immagine-logo" src={logoCAST} alt="Circolo astrofili Talmassons" ></img>
         </Link>
       </div>

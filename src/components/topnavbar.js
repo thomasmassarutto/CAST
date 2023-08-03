@@ -2,7 +2,7 @@ import React from "react";
 import "./topnavbar.css";
 import logoCAST from "../img/logoCASTbianco.png";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Layout from "../pages/Layout";
+
 
 function topnavbar() {
   return (
