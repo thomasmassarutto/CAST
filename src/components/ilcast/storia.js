@@ -2,7 +2,6 @@ import React from "react";
 
 function storia() {
   return (
-    <div className="ilcaststoria">
       <div class="card-body cardbodyilcast">
         <h5 class="card-title text-center">Breve storia del CAST</h5>
         <p>
@@ -195,7 +194,7 @@ function storia() {
 
         <p></p>
       </div>
-    </div>
+
   );
 }
 
