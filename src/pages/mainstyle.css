@@ -20,18 +20,20 @@ CSS HSL
 --delft-blue: hsla(228, 46%, 28%, 1);
 --space-cadet: hsla(227, 42%, 20%, 1);
 */
-html{
-    background-color: #e4d9ff;
+html {
+  background-color: #e4d9ff;
 }
-body{
-    margin: 0;
-    background-color: #e4d9ff;
-}
-
-#BrowserRouterNav{
-    display: none;
+body {
+  margin: 0;
+  background-color: #e4d9ff;
 }
 
-.titolopagina{
-    font-family: "Orbitron", sans-serif;
+#BrowserRouterNav {
+  display: none;
+}
+
+.titolopagina {
+  font-family: "Orbitron", sans-serif;
+  background-color: trasparent;
+  color: #fafaff;
 }

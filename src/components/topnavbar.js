@@ -1,55 +1,55 @@
 import React from "react";
 import "./topnavbar.css";
+import { Link } from "react-router-dom";
 import logoCAST from "../img/logoCASTbianco.png";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-
 
 function topnavbar() {
   return (
-    <div className="topnavbarwrapper sticky-top">
-      <div className="topnavbar">
-        <nav class="navbar">
+    <div className="topnavbar">
+      <nav class="navbar">
+        <div>
+          <Link class="navbar-brand" to="/">
+            <img src={logoCAST} alt="Bootstrap" width="" height="70"></img>
+          </Link>
+        </div>
 
-          <div class="container-fluid d-flex align-items-center">
-            <Link className="navbar-brand" to="/">
-              <img className="imagecast"
-                src={logoCAST}
-                alt="Logo"
-                width="auto"
-                height="60"
-                class="d-inline-block align-text-top"
-              ></img>
-            </Link >
+        <div className="text-center">
+          <h1 className="titolosito">Centro AStrofili Talmassons</h1>
+
+          <div>
+            <p className="sottotitolosito">
+              <small>45°56'12" N - 13°06'52"E - 42 mt. s.l.m.</small>
+            </p>
+            <p className="sottotitolosito">
+              <small>Via Cadorna 57 - 33030 Talmassons (UD)</small>
+            </p>
           </div>
+        </div>
 
-          <div className="brand d-flex flex-column container-fluid nav-item">
-          <h1 class="navbar-brand titolo">
-          Circolo AStrofili Talmassons
-          </h1>
-          <small className="sottotitolocentrale">45°56'12" N - 13°06'52"E - 42 mt. s.l.m.</small>
-          <small className="sottotitolocentrale">Via Cadorna 57 - 33030 Talmassons (UD)</small>
-          </div>
+        <div>
+          <p>Contatti</p>
+          <ul class="list-group list-group-flush">
+            <li class="">
+              <a href="https://www.facebook.com/castfvg">
+                <i class="bi bi-facebook"></i> Circolo Astrofili Talmassons
+              </a>
+            </li>
 
-          <div className="topnavbarcontatti nav-item d-flex flex-column">
-            <i class="bi bi-facebook">
-            <a href="https://www.facebook.com/castfvg">
-                  <span> Circolo Astrofili Talmassons</span>
-                </a>
-            </i>
-            <i class="bi bi-envelope">
-            <a href="MAILTO:info@castfvg.it">
-                  <span> info@castfvg.it</span>
-                </a>
-            </i>
-            <i class="bi bi-envelope">
-            <a href="MAILTO:circolo.astrofili.talmassons@gmail.com">
-                  <span> circolo.astrofili.talmassons@gmail.com</span>
-                </a>
+            <li class="">
+              <a href="MAILTO:info@castfvg.it">
+                <i class="bi bi-envelope"></i> info@castfvg.it
+              </a>
+            </li>
 
-            </i>
-          </div>
-        </nav>
-      </div>
+            <li class="">
+              <a href="MAILTO:circolo.astrofili.talmassons@gmail.com">
+                <i class="bi bi-envelope"></i>{" "}
+                circolo.astrofili.talmassons@gmail.com
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
   );
 }

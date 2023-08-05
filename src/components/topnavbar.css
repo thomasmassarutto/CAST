@@ -3,34 +3,27 @@
     color: #fafaff;
 }
 
-.navbar-brand{
-    z-index:1
-}
-
-.brand {
-    position: absolute;
-}
-
-.titolo:hover {
-    color: #fafaff;
-}
-
-.titolo{
+.titolosito{
     font-family: "Orbitron", sans-serif;
+    background-color: trasparent;
     color: #fafaff;
 }
 
-.topnavbarcontatti{
-    position: absolute;
-    right: 1%;
+.sottotitolosito{
+    padding: 0;
+    margin: 0;
 }
 
-.topnavbarcontatti a{
-    color: #fafaff;
+.navbar a{
     text-decoration: none;
+    color: #fafaff;
 }
 
-.topnavbarcontatti a:hover{
-    color: #fafaff;
+.navbar a:hover{
     text-decoration: none;
+    color: #e4d9ff;;
+}
+
+.navbar ul{
+    list-style-type: none;
 }
