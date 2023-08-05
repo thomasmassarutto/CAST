@@ -3,8 +3,13 @@
   color: #fafaff;
 }
 
-.divfooter a {
+.footerfooter a {
   color: #fafaff;
+  text-decoration: none;
+}
+
+.footerfooter a:hover {
+  color: #e4d9ff;
   text-decoration: none;
 }
 
