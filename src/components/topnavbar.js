@@ -27,7 +27,6 @@ function topnavbar() {
         </div>
 
         <div>
-          <p>Contatti</p>
           <ul class="list-group list-group-flush">
             <li class="">
               <a href="https://www.facebook.com/castfvg">
