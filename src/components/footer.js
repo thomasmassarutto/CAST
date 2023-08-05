@@ -36,6 +36,7 @@ function footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
+                {" "}
                 +39 0432 652609
               </a>
             </p>
