@@ -9,7 +9,7 @@ function mynavbar() {
       <nav className="mainpagenavbarmenu">
         <ul class="nav nav-underline nav-fill mainpagenavbarul">
           <li class="nav-item">
-            <a class="nav-link mainpagenavbarlink" href="#">
+            <a class="nav-link mainpagenavbarlink" href="/Foto">
               Foto
             </a>
           </li>

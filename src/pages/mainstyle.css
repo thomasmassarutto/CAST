@@ -34,6 +34,14 @@ body {
 
 .titolopagina {
   font-family: "Orbitron", sans-serif;
-  background-color: trasparent;
+  background-color: #273469;
   color: #fafaff;
+  padding-bottom: 1%;
+  margin-bottom: 0;
+}
+
+.pagecontainer{
+    position: relative;
+    color: #fafaff;
+    background-color: #273469;
 }

@@ -11,7 +11,7 @@ import "../components/ilcast/ilcast.css";
 
 function ilcast() {
   return (
-    <div className="ilcastmaincontainer">
+    <div className="pagecontainer">
       <AlwaysTopNavbar />
 
       <h1 className="titolopagina text-center">IL CAST</h1>
