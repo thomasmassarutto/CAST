@@ -9,6 +9,8 @@ import { Tabs, Tab } from "react-bootstrap";
 function foto() {
   const immagini = {
     placeholder: require("../components/foto/copertine/placeholder.png"),
+
+    // copertine Galassie
     copertinaGruppolocale: require("../components/foto/copertine/ilgruppolocale.jpg"),
     copertinaOggettiMessier: require("../components/foto/copertine/gruppomessier.jpg"),
     copertinaCatalogoNGC: require("../components/foto/copertine/catalogongc.jpg"),
@@ -17,6 +19,20 @@ function foto() {
     copertinaCatalogoVCC: require("../components/foto/copertine/catalogovcc.jpg"),
     copertinaCatalogoIC: require("../components/foto/copertine/catalogoic.jpg"),
     copertinaAltreGalassie: require("../components/foto/copertine/altregalassie.jpg"),
+
+    // copertine Stelle
+    copertinaAmmassiAperti: require("../components/foto/copertine/ammassiaperti.jpg"),
+    copertinaAmmassiGlobulari: require("../components/foto/copertine/ammassiglobulari.jpg"),
+    copertinaCostellazioni: require("../components/foto/copertine/costellazioni.jpg"),
+    copertinaNovae: require("../components/foto/copertine/novae.jpg"),
+    copertinaStelleSingole: require("../components/foto/copertine/stellesingole.jpg"),
+    copertinaStelleMultiple: require("../components/foto/copertine/stellemultiple.jpg"),
+    copertinaSupernovae: require("../components/foto/copertine/supernovae.jpg"),
+
+    //copertine Sistema solare
+
+    //copertine Nebulose
+
     // Aggiungi altri link delle immagini qui
   };
 
@@ -88,11 +104,54 @@ function foto() {
           <FotoCard
             titolo="Altre Galassie"
             fotolink={immagini.copertinaAltreGalassie}
-            descrizione="Ssplendide foto catturate negli anni dal gruppo CAST. Queste immagini mostrano meraviglie celesti, da galassie spirali a ammassi di stelle e galassie, offrendo affascinanti scorci dell'Universo. Queste immagini rivelano la bellezza e la varietà del nostro cosmo, un vero tesoro per gli amanti dell'astronomia e un'ispirazione per coloro che desiderano esplorare i segreti del cielo notturno."
+            descrizione="Splendide foto catturate negli anni dal gruppo CAST. Queste immagini mostrano meraviglie celesti, da galassie spirali a ammassi di stelle e galassie, offrendo affascinanti scorci dell'Universo. Queste immagini rivelano la bellezza e la varietà del nostro cosmo, un vero tesoro per gli amanti dell'astronomia e un'ispirazione per coloro che desiderano esplorare i segreti del cielo notturno."
           />
         </Tab>
 
-        <Tab eventKey="Le stelle" title="Le stelle"></Tab>
+        <Tab eventKey="Le stelle" title="Le stelle">
+
+        <FotoCard
+            titolo="Ammassi aperti"
+            fotolink={immagini.copertinaAmmassiAperti}
+            descrizione=""
+          />
+
+          <FotoCard
+            titolo="Ammassi globulari"
+            fotolink={immagini.copertinaAmmassiGlobulari}
+            descrizione=""
+          />
+
+          <FotoCard
+            titolo="Costellazioni"
+            fotolink={immagini.copertinaCostellazioni}
+            descrizione=""
+          />
+
+          <FotoCard
+            titolo="Novae"
+            fotolink={immagini.copertinaNovae}
+            descrizione=""
+          />
+
+          <FotoCard
+            titolo="Stelle singole"
+            fotolink={immagini.copertinaStelleSingole}
+            descrizione=""
+          />
+
+          <FotoCard
+            titolo="Stelle multiple"
+            fotolink={immagini.copertinaStelleMultiple}
+            descrizione=""
+          />
+
+          <FotoCard
+            titolo="Supernovae"
+            fotolink={immagini.copertinaSupernovae}
+            descrizione=""
+          />
+        </Tab>
 
         <Tab eventKey="Il Sistema Solare" title="Il Sistema Solare"></Tab>
 
