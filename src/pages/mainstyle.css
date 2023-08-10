@@ -40,8 +40,15 @@ body {
   margin-bottom: 0;
 }
 
+.sottotitolopagina{
+  background-color: #273469;
+  color: #fafaff;
+  padding-bottom: 1%;
+  margin-bottom: 0;
+}
+
 .pagecontainer{
     position: relative;
     color: #fafaff;
-    background-color: #273469;
+    background-color: #e4d9ff;
 }
